@@ -16,3 +16,4 @@ console.log(codingFact);
 
 console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
 
+
