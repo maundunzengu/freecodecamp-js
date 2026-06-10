@@ -38,15 +38,6 @@ logMessage();
 
 
 
-// Anonymous functions are often used inside other functions.
- // Example: inside setTimeout():
-
-setTimeout(function() {
-	console.log("Executed after 2 seconds");
-}, 2000);
-
-
-
 const fruits = ["apple", "mango", "banana"];
 
 fruits.forEach(function(fruit) {

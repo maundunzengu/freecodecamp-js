@@ -30,3 +30,11 @@ intro("Ruiz");
 
 let calculation = (a, b) => a *b 
 console.log(calculation(5, 7));
+
+
+const calculateArea = (length, width) => {
+	const area = length * width;
+	return `The area of the rectangle is ${area} square units.`;
+}
+
+console.log(calculateArea(5, 10));
