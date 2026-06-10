@@ -60,4 +60,8 @@ const doubled = numbers.map(function(num) {
 	return num * 2;
 });
 
+const multiplyNumbers = function(firstNumber, secondNumber) {
+	return firstNumber * secondNumber;
+}
 
+console.log(multiplyNumbers(4, 5));
