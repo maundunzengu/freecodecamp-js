@@ -30,4 +30,34 @@ console.log(calculate(4, 5));// 20
 // ===
 
 
+const logMessage = function() {
+	console.log("This is an anonymous function");
+ }
+
+logMessage();
+
+
+
+// Anonymous functions are often used inside other functions.
+ // Example: inside setTimeout():
+
+setTimeout(function() {
+	console.log("Executed after 2 seconds");
+}, 2000);
+
+
+
+const fruits = ["apple", "mango", "banana"];
+
+fruits.forEach(function(fruit) {
+	console.log("Fruit:", fruit);
+});
+
+//map
+const numbers = [1, 2, 3, 4];
+
+const doubled = numbers.map(function(num) {
+	return num * 2;
+});
+
 
