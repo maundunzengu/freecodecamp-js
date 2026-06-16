@@ -47,3 +47,14 @@ console.log(introduce("Isaac"));
 
 const multiply = (a, b) => a * b;
 console.log(multiply(4, 5));
+
+
+function countVowel(string) {
+	let vowels = "aeiou";
+	return string.toLowerCase().split("").filter(c => vowels.includes(c)).length;
+}
+
+console.log(countVowel("Javascript"));
+console.log(countVowel("rhythym"));
+console.log(countVowel("hello"));
+
